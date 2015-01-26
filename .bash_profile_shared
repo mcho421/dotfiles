@@ -1,3 +1,5 @@
+# Activate these settings in ~/.bash_profile with source ~/.bash_profile_shared
+
 # Exports
 export PAGER=less
 export LESS="-iMx4"
