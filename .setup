@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+# Git autocompletion (http://code-worrier.com/blog/autocomplete-git/)
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+
+# Homebrew (http://brew.sh/)
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

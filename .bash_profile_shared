@@ -1,0 +1,19 @@
+# Exports
+export PAGER=less
+export LESS="-iMx4"
+
+# OSX terminal and ls colours
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+export TERM="xterm-color"
+PS1='\[\033[0;36m\]\u@\h\[\033[0m\]:\[\033[0;33m\]\w\[\033[0m\]\$ '
+
+# Git autocompletion (http://code-worrier.com/blog/autocomplete-git/)
+if [ -f ~/.git-completion.bash ]; then
+        . ~/.git-completion.bash
+fi
+
+# aliased command line tools
+alias urlencode='python -c "import sys, urllib as ul; print ul.quote(sys.stdin.read().strip())"'
+alias urldecode='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.stdin.read().strip())"'
+
