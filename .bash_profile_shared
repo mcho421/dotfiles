@@ -18,4 +18,5 @@ fi
 # aliased command line tools
 alias urlencode='python -c "import sys, urllib as ul; print ul.quote(sys.stdin.read().strip())"'
 alias urldecode='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.stdin.read().strip())"'
+alias tree='tree -C'
 
